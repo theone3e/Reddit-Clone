@@ -1,0 +1,27 @@
+.header { 
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em 0 2.5em;
+}
+
+.header a{ 
+    text-decoration: none;
+}
+
+.categories ul {
+    display: flex;
+    align-items: center;
+}
+
+.categories li a{
+    padding: 5px 10px;
+    margin: 10px;
+    color: #808080;
+}
+
+.categories a:active {
+    color: greenyellow;
+    border-bottom: 2.5px solid black;
+}

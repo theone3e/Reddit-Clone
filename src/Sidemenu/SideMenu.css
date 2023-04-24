@@ -1,0 +1,56 @@
+.sidemenu {
+    width: 200px;
+    font-size: normal;
+    box-shadow: 1px -1px 1px 1px #f4f5fa;
+}
+
+.sidemenu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidemenu-logo img{
+    width: 65%;
+    margin: 10px;
+}
+
+.sidemenu-searchbar {
+    margin: 1.5em 2;
+    padding-left: 5px;
+}
+
+.sidemenu-searchbar input {
+    padding: 8px 10px;
+    border: 1px solid #f4f5fa;
+    box-shadow: 0px 1px #f4f5fa;
+    border-radius: 50px;
+    position: relative;
+    outline-width: 0;
+}
+
+.sidemenu-searchbar i {
+    bottom: 24px;
+    left: 160px;
+    position: relative;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: #808080
+}
+
+.sidemenu li {
+    padding: 10px 15px;
+}
+
+.sidemenu hr{
+    margin: 2em;
+    border: 1px solid #f4f5fa;
+}
+
+.sidemenu h2 {
+    font-size: 20px;
+    margin: 0px 5px 20px 5px;
+    font-weight: 600;
+}

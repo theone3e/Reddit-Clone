@@ -1,0 +1,40 @@
+.post {
+    display: flex;
+    align-items: center;
+    margin: 1em 0.5em 2em;
+    padding: 0em 1em;
+}
+
+.post-whole{
+    display: flex;
+}
+
+.post-likes {
+    display: inline;
+    margin: 1em 0.5em
+}
+
+.post-title a{
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+    color: #464855;
+    /* margin-left: -550px; */
+    /* align-items: left; */
+}
+
+.post-info{
+    align-items: left;
+    justify-content: center;
+    /* margin-left: -550px; */
+    margin-top: 55px;
+}
+
+.post-info p{
+    margin-top: 0px;
+}
+.post-userDetails{ 
+    font-size: smaller;
+    color: #898989;
+    /* margin-left: -550px; */
+}

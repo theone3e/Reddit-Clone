@@ -1,0 +1,15 @@
+.post-media img {
+    display: flex;
+    align-items: left;
+    width: 200px;
+    height: 125px;
+    /* height: 150%; */ 
+    /* tuka e problema bratme */
+    margin: 1.5em; 
+}
+
+.posts { 
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
