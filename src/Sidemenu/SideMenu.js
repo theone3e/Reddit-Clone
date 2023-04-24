@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './SideMenu.css';
+import { useDispatch, useSelector } from "react-redux";
+
 
 export default function SideMenu() {
     const menu = [

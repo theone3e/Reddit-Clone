@@ -6,20 +6,20 @@ import './Posts.css';
 export default function Posts() {
     const posts = [
         {
-            upvotes: "420", //number
+            upvotes: "369",
             image: "https://animecorner.me/wp-content/uploads/2022/10/mieruko-chan-manga-2-million.jpg", //link
             title: "mieruko-chan",
             user: "miko",
             subreddit: "manga",
-            commentsNum: "69",
+            commentsNum: "125", //all fake info, to be removed later
         },
         {
-            upvotes: "420", //number
+            upvotes: "123",
             image: "https://animecorner.me/wp-content/uploads/2022/10/mieruko-chan-manga-2-million.jpg", //link
             title: "mieruko-chan",
             user: "miko",
             subreddit: "manga",
-            commentsNum: "69",
+            commentsNum: "85",
         }
     ]
 
