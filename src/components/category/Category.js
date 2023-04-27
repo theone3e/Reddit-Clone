@@ -28,7 +28,7 @@ export const Category = () => {
 
     const divCategories = (
         <>
-        
+            
         </>
     )
 
