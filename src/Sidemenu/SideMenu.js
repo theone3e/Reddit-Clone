@@ -1,9 +1,27 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import './SideMenu.css';
 import { useDispatch, useSelector } from "react-redux";
 
 
 export default function SideMenu() {
+    //function process
+    // const [articles, setArticles] = useState([]);
+    // const [subreddit, setSubreddit] = useState();
+
+    // useEffect(() => {
+    //     fetch("https://www.reddit.com/r/webdev.json").then(result => {
+    //         if(result.status != 200){
+    //             alert("Error in results status");
+    //             return;
+    //         }
+    //         result.json().then (data => {
+    //             if (data != null) {
+    //                 setArticles(data.data.children);
+    //             }
+    //         });
+    //     })
+    // }, [subreddit]);
+
     const menu = [
         {to: '/r/popular', text: "Popular"},
         {to: '/r/all', text: "All"},
@@ -36,7 +54,7 @@ export default function SideMenu() {
                 <img src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png" />    
             </div>
             <div className="sidemenu-searchbar">
-                <input type="text" name="searchbar" placeholder="Search subreddits" />
+                <input type="text" name="searchbar" className="searchbar" placeholder="Search subreddits" />
                 <i className="fas fa-search"> </i> 
             </div>
             <div className="sidemenu-links">
