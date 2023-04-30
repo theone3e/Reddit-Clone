@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import './SideMenu.css';
 import { useDispatch, useSelector } from "react-redux";
-
+import PostItem from "../mainframe/PostItem";
+import Article from "../components/category/Article";
+import Posts from "../mainframe/Posts";
 
 export default function SideMenu() {
-    //function process
     // const [articles, setArticles] = useState([]);
     // const [subreddit, setSubreddit] = useState();
 
@@ -21,6 +22,8 @@ export default function SideMenu() {
     //         });
     //     })
     // }, [subreddit]);
+
+
 
     const menu = [
         {to: '/r/popular', text: "Popular"},
@@ -54,9 +57,20 @@ export default function SideMenu() {
                 <img src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png" />    
             </div>
             <div className="sidemenu-searchbar">
-                <input type="text" name="searchbar" className="searchbar" placeholder="Search subreddits" />
+                {/* value={subreddit} 
+                    onChange={e=> setArticles(e.target.value)}
+                in the <input>*/}
+                <input type="text" name="searchbar"  className="searchbar"  placeholder="Search subreddits" />
                 <i className="fas fa-search"> </i> 
             </div>
+
+            {/* not sure, need to check */}
+            {/* <div className="searchResults">
+                {
+                    (articles !=null) ? articles.map((article, index) => <Article key={index} article={article.data} />) : ''
+                }
+            </div> */}
+
             <div className="sidemenu-links">
                 
                 <ul className="sidemenu-menu">
